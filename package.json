@@ -1,18 +1,18 @@
 {
-	"name": "semantic-howlease",
-	"version": "0.0.0-development",
-	"main": "index.js",
-	"repository": "git@github.com:k4y4k/semantic-howlease.git",
-	"author": "kayak <kayak@kayak.rocks>",
-	"license": "MIT",
-	"devDependencies": {
-		"@commitlint/cli": "9.0.1",
-		"@commitlint/config-conventional": "9.0.1",
-		"@commitlint/prompt-cli": "9.0.1",
-		"semantic-release": "17.1.0"
-	},
-	"scripts": {
-		"semantic-release": "semantic-release",
-		"commit": "commit"
-	}
+  "name": "semantic-howlease",
+  "version": "0.0.0-development",
+  "main": "index.js",
+  "repository": "git@github.com:k4y4k/semantic-howlease.git",
+  "author": "kayak <kayak@kayak.rocks>",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "9.0.1",
+    "@commitlint/config-conventional": "9.0.1",
+    "@commitlint/prompt-cli": "9.0.1",
+    "semantic-release": "^17.1.0"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release",
+    "commit": "commit"
+  }
 }

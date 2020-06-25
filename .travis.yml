@@ -4,3 +4,9 @@ node_js:
 
 script:
   - echo "hello world"
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script:
+    - npx semantic-release
